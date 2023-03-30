@@ -33,16 +33,14 @@ body {
   text-decoration: none;
 }
 
-a:link,
-a:visited {
+.header a:link, a:visited {
   padding: 8px;
   border: 2px solid white;
   background-color: #2d2727;
   border-radius: 10px;
 }
 
-a:hover,
-a:active {
+.header a:hover, a:active {
   background-color: red;
 }
 
@@ -104,8 +102,9 @@ a:active {
   flex: 0 0 40%;
 }
 
-.websites h2 {
+.websites header {
   text-decoration: underline;
+  font-weight: 600;
   font-size: 30px;
   padding: 40px;
   margin-top: 20px;
@@ -114,7 +113,7 @@ a:active {
 
 .websites img {
   width: 600px;
-  height: auto;
+  height: 500px;
 }
 
 .container1 {
@@ -128,8 +127,8 @@ a:active {
 
 .website-item {
   display: flex;
-  width: 35%;
-  height: 500px;
+  width: auto;
+  height: auto;
   justify-content: center;
   align-content: space-around;
   background-color: bisque;
@@ -139,4 +138,45 @@ a:active {
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 10px 5px #aaaaaa;
   padding: 30px;
+}
+
+.website-item:first-child {
+  width: 70%;
+}
+
+.website-item:first-child img {
+  width: 1000px;
+}
+
+.website-item h2 {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.websites a:hover, a:active {
+  background-color: red;
+}
+
+.footer {
+  background-color: #245953;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
 }
