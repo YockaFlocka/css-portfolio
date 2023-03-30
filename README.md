@@ -28,7 +28,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Mock-Up
+## Assets
 
 The following link shows a live version of the web application:
 
