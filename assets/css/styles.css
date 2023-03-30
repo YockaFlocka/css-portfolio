@@ -141,11 +141,13 @@ body {
 }
 
 .website-item:first-child {
+  display: flex;
+  flex-wrap: wrap;
   width: 70%;
 }
 
 .website-item:first-child img {
-  width: 1000px;
+  width: auto;
 }
 
 .website-item h2 {
