@@ -30,6 +30,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 
-The following link shows a preview of the web application:
+The following link shows a live version of the web application:
 
-![css-portfolio]()
+[Live CSS-portfolio](https://yockaflocka.github.io/css-portfolio/)
+
+The following is a screenshot of the web application:
+
+[Screenshot](./assets/images/css-screenshot.jpg)
