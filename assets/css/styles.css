@@ -50,7 +50,7 @@ body {
   border-width: 1px;
   border-radius: 50px;
   padding: 10px;
-  flex: 0 0 49%;
+  flex: 1 1 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 10px 10px 10px 10px;
 }
@@ -74,7 +74,7 @@ body {
   border-width: 1px;
   border-radius: 50px;
   padding: 20px;
-  flex: 0 0 49%;
+  flex: 1 1 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
   background-color: bisque;
   margin: 10px 10px 10px 10px;
@@ -90,7 +90,7 @@ body {
   padding: 15px;
 }
 
-.main-section1 h2 {
+.profile h2 {
   font-size: 30px;
   padding: 20px;
   text-align: center;
@@ -181,4 +181,12 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 18px;
+}
+
+
+/* tablets */
+@media screen and (max-width: 992px) {
+  .top-main {
+    flex-direction: column;
+  }
 }
